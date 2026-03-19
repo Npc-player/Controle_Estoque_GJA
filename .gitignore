@@ -1,0 +1,17 @@
+# .gitignore
+
+# Ignora arquivos de ambiente (segredos)
+appscript.gs
+.env
+
+# Ignora pastas de cache e compilação
+__pycache__/
+dist/
+build/
+*.spec
+.venv/
+venv/
+
+# Ignora arquivos de configuração de IDE
+.vscode/
+.idea/
